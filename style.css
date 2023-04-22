@@ -1,7 +1,57 @@
-.attribution{
-    font-size: 11px;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
-.attribution a { 
-color: hsl(228, 45%, 44%);
+body{
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30%;
+    padding: 5%;
+    border-radius: 5%;
+}
+.main-image{
+    position: relative;
+    margin-left: -20%;
+}
+.main-image img{
+    height: 170%;
+    width: 170%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    margin: 5% 0;
+}
+.accordion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+.accordion1{
+    margin: 3% 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0;
+}
+p{
+    color: rgb(100, 100, 100);
 }
